@@ -103,12 +103,12 @@ BatteryMFormer's published protocol: aging-condition-exclusive folds, every fold
 trained independently, mean ± **std across folds**. 25 epochs, 3 seeds per fold,
 seeds averaged within a fold before the std is taken.
 
-| target | **StateAttention** (783k) | BatteryMFormer reproduced (12.9M) | BatteryMFormer published | margin |
-| --- | --- | --- | --- | --- |
-| **Zn-ion** | **4.391 ± 0.638** | 5.102 ± 0.413 | 4.970 ± 0.654 | **−0.711** |
-| **CALB** | **1.474 ± 1.297** | 1.725 ± 0.941 | 1.789 ± 0.282 | −0.250 |
-| **Na-ion** | **0.921 ± 0.338** | 1.045 ± 0.350 | 1.002 ± 0.446 | −0.124 |
-| **Li-ion** | **2.563 ± 0.082** | 2.604 ± 0.096 | 2.248 ± 0.037 | −0.042 |
+| target | **StateAttention** (783k) | BatteryMFormer reproduced (12.9M) | BatteryMFormer published |
+| --- | --- | --- | --- |
+| **Zn-ion** | **4.391 ± 0.638** | 5.102 ± 0.413 | 4.970 ± 0.654 |
+| **CALB** | **1.474 ± 1.297** | 1.725 ± 0.941 | 1.789 ± 0.282 |
+| **Na-ion** | **0.921 ± 0.338** | 1.045 ± 0.350 | 1.002 ± 0.446 |
+| **Li-ion** | **2.563 ± 0.082** | 2.604 ± 0.096 | 2.248 ± 0.037 |
 
 Folds: Li-ion 3/3, Zn-ion 3/3, Na-ion 10/10, CALB 4/4.
 
