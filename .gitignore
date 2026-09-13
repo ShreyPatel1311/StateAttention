@@ -1,0 +1,33 @@
+# data and weights are never committed
+/data/
+/logs/
+/results/
+/runs/
+*.npz
+*.npy
+*.pkl
+*.pt
+*.ckpt
+*.zip
+
+# third-party code fetched by scripts/fetch_baseline.sh -- not ours to ship
+/third_party/
+
+# BatteryMFormer's split definitions, fetched by scripts/setup.sh
+/src/stateattention/data/splits/batterymformer/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# env / secrets
+.env
+*.pem
+
+# os
+.DS_Store
